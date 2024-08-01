@@ -15,6 +15,12 @@ docker compose up -d
 docker compose down
 ```
 
+### Docker
+
+```shell
+docker run --name mongodb -p 27017:27017 -d mongodb/mongodb-community-server:latest
+```
+
 ## Mongosh
 * https://www.mongodb.com/docs/mongodb-shell/
 
